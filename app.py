@@ -6,6 +6,7 @@ app.config["SECRET_KEY"] = "your_secret_key"
 app.config["SQLALCHEMY_DATABASE_URI"] = "slqlite:///database.db"
 
 db = SQLAlchemy(app)
+# Session <- conexão ativa
 
 
 @app.route("/hello-world", methods=["GET"])
