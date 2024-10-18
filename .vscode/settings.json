@@ -1,5 +1,9 @@
 {
     "cSpell.words": [
+        "conexão",
+        "Credenciais",
+        "inválidas",
+        "jsonify",
         "slqlite",
         "sqlalchemy"
     ]
